@@ -1,4 +1,4 @@
-import Button from "./components/Button";
+import Button from "./components/Button.jsx";
 
 const App = () => {
   return (

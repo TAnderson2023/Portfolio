@@ -12,7 +12,7 @@ export default {
     extend: {
       colors: {
         primary: {
-          1: "#71717",
+          1: "#717171",
           2: "#444444",
           3: "#DA0037",
           4: "#EDEDED",
@@ -29,47 +29,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
-      },
-      letterSpacing: {
-        tagline: ".15em",
-      },
-      spacing: {
-        0.25: "0.0625rem",
-        7.5: "1.875rem",
-        15: "3.75rem",
-      },
-      opacity: {
-        15: ".15",
-      },
-      transitionDuration: {
-        DEFAULT: "200ms",
-      },
-      transitionTimingFunction: {
-        DEFAULT: "linear",
-      },
-      zIndex: {
-        1: "1",
-        2: "2",
-        3: "3",
-        4: "4",
-        5: "5",
-      },
-      borderWidth: {
-        DEFAULT: "0.0625rem",
-      },
-      backgroundImage: {
-        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
-        "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
-        "benefit-card-1": "url(assets/benefits/card-1.svg)",
-        "benefit-card-2": "url(assets/benefits/card-2.svg)",
-        "benefit-card-3": "url(assets/benefits/card-3.svg)",
-        "benefit-card-4": "url(assets/benefits/card-4.svg)",
-        "benefit-card-5": "url(assets/benefits/card-5.svg)",
-        "benefit-card-6": "url(assets/benefits/card-6.svg)",
+        body: ["League Spartan"],
       },
     },
   },
@@ -96,7 +56,7 @@ export default {
           "@apply text-[2rem] leading-normal": {},
         },
         ".h5": {
-          "@apply text-2xl leading-normal": {},
+          "@apply text-2xl leading-normal font-body": {},
         },
         ".h6": {
           "@apply font-semibold text-lg leading-8": {},
@@ -108,18 +68,8 @@ export default {
         ".body-2": {
           "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
         },
-        ".caption": {
-          "@apply text-sm": {},
-        },
-        ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
-            {},
-        },
-        ".quote": {
-          "@apply font-code text-lg leading-normal": {},
-        },
-        ".button": {
-          "@apply font-code text-xs font-bold uppercase tracking-wider": {},
+        ".active": {
+          "@apply bg-primary-1 hover:bg-primary-2": {},
         },
       });
       addUtilities({

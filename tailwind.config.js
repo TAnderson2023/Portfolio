@@ -29,7 +29,8 @@ export default {
         },
       },
       fontFamily: {
-        body: ["League Spartan"],
+        heading: ["League Spartan"],
+        body: ["Open Sans"],
       },
     },
   },
@@ -42,34 +43,31 @@ export default {
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-semibold font-heading text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
+          "@apply font-heading text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
             {},
         },
         ".h3": {
-          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
+          "@apply text-[2rem] leading-normal md:text-[2.5rem] font-heading": {},
         },
         ".h4": {
-          "@apply text-[2rem] leading-normal": {},
+          "@apply text-[2rem] leading-normal font-heading": {},
         },
         ".h5": {
-          "@apply text-2xl leading-normal font-body": {},
-        },
-        ".h6": {
-          "@apply font-semibold text-lg leading-8": {},
-        },
-        ".body-1": {
-          "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
+          "@apply text-2xl leading-normal font-heading hover:border-b-[2px]":
             {},
         },
-        ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
+        ".h6": {
+          "@apply text-2xl leading-normal font-heading": {},
+        },
+        ".p": {
+          "@apply font-body text-[16px]": {},
         },
         ".active": {
-          "@apply bg-primary-1 hover:bg-primary-2": {},
+          "@apply border-b-[2px]": {},
         },
       });
       addUtilities({

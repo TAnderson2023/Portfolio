@@ -61,7 +61,7 @@ export default {
             {},
         },
         ".h6": {
-          "@apply text-2xl leading-normal font-heading": {},
+          "@apply text-2xl leading-normal font-heading align-middle": {},
         },
         ".p": {
           "@apply font-body text-[16px]": {},

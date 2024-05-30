@@ -18,10 +18,10 @@ const Navbar = () => {
       </ul>
       <div className="flex gap-[1rem]">
         <a className="h6" href="https://www.instagram.com/sf_asmodeous/">
-          <FontAwesomeIcon icon={faInstagram} className="align-middle" />
+          <FontAwesomeIcon icon={faInstagram} size="lg" className="h6" />
         </a>
-        <p className="h6 align-middle">|</p>
-        <a href="/" className="h6 align-middle">
+        <p className="h6">|</p>
+        <a href="/" className="h6">
           Tristan Anderson
         </a>
       </div>

@@ -6,12 +6,26 @@ const Navbar = () => {
     <nav className="flex justify-between gap-[2rem] px-[1rem] bg-primary-3 text-neutral-4 w-[100%] drop-shadow-lg">
       <ul className="flex gap-[1rem] justify-evenly">
         <li className="p-0 m-0">
-          <a className="active h5 block" href="/portfolio/skills">
+          <a
+            className={
+              window.location.pathname == "/portfolio/skills"
+                ? "active h5 block"
+                : "h5 block"
+            }
+            href="/portfolio/skills"
+          >
             Skills
           </a>
         </li>
         <li>
-          <a className="h5 block" href="/portfolio/projects">
+          <a
+            className={
+              window.location.pathname == "/portfolio/projects"
+                ? "active h5 block"
+                : "h5 block"
+            }
+            href="/portfolio/projects"
+          >
             Projects
           </a>
         </li>

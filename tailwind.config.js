@@ -12,7 +12,7 @@ export default {
     extend: {
       colors: {
         primary: {
-          1: "#717171",
+          1: "#171717",
           2: "#444444",
           3: "#DA0037",
           4: "#EDEDED",
@@ -57,7 +57,7 @@ export default {
           "@apply text-[2rem] leading-normal font-heading": {},
         },
         ".h5": {
-          "@apply text-2xl leading-normal font-heading hover:border-b-[2px]":
+          "@apply text-2xl leading-normal font-heading border-primary-1 hover:border-b-[2px]":
             {},
         },
         ".h6": {

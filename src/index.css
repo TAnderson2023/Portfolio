@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -14,7 +14,7 @@
 
 @layer base {
   body {
-    @apply font-sans bg-primary-2 text-neutral-5 text-base;
+    @apply font-sans bg-neutral-1 text-primary-1 text-base;
   }
 }
 

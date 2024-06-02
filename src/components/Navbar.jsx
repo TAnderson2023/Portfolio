@@ -3,7 +3,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between gap-[2rem] px-[1rem] bg-primary-3 text-neutral-4 w-[100%] drop-shadow-lg">
+    <nav className="flex justify-between gap-[2rem] px-[1rem] bg-neutral-1 text-primary-1 w-[100%] drop-shadow">
       <ul className="flex gap-[1rem] justify-evenly">
         <li className="p-0 m-0">
           <a
